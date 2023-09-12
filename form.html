@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Google Sheet.css">
+    <style>
+        /* Add CSS styles for better alignment */
+        body {
+            background-image: url('https://img.freepik.com/free-photo/creative-wallpaper-with-white-shapes_23-2148811498.jpg?w=996&t=st=1694429813~exp=1694430413~hmac=1817c997ed5c5395f1ec77994ebe15ef3f1233895b2b07861f830201d7d2b099');
+            background-size: cover; /* This ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            font-family: Arial, sans-serif; /* Modern font */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+           /* Background color for the form container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        h4 {
+            margin-top: 20px;
+            color: #333; /* Text color for headings */
+        }
+
+        /* Style the submit button */
+        #submit {
+            background-color: #007bff; /* Background color for the button */
+            color: #fff; /* Text color for the button text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Change button color on hover */
+        #submit:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="https://script.google.com/macros/s/AKfycbxOErXW8qc0SgDFB_alo7sClhcWc5H2B7u_LvsJG2ml9snng4l7culPW16oquSs6aJ0/exec" name="contact-form">
+            <h4>Contact Us</h4>
+            <!-- Company Name and Address -->
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td><label for="company-name">Company Name:</label></td>
+                    <td><input type="text" name="company-name" placeholder="Enter Company Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="company-address">Company Address:</label></td>
+                    <td><input type="text" name="company-address" placeholder="Enter Company Address"></td>
+                </tr>
+            </table>
+
+            <!-- Products -->
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Yearly Cost</th>
+                    <th>Purchase Count</th>
+                </tr>
+               
+
+                </tr>
+                <!-- Product 1: Desktop Computers -->
+                <tr>
+                    <td>Desktop Computers</td>
+                    <td><input type="number" name="Desktop-Computers-cost" placeholder="Yearly Cost"></td>
+                    <td><input type="number" name="Desktop-Computers-count" placeholder="Purchase Count"></td>
+                </tr>
+                <!-- Product 2: Tablets -->
+                <tr>
+                    <td>Tablets</td>
+                    <td><input type="number" name="Tablets-cost" placeholder="Yearly Cost"></td>
+                    <td><input type="number" name="Tablets-count" placeholder="Purchase Count"></td>
+                </tr>
+                <!-- Product 3: Laptops -->
+                <tr>
+                    <td>Laptops</td>
+                    <td><input type="number" name="Laptops-cost" placeholder="Yearly Cost"></td>
+                    <td><input type="number" name="Laptops-count" placeholder="Purchase Count"></td>
+                </tr>
+             <!-- Product 4: Monitors -->
+    <tr>
+        <td>Monitors</td>
+        <td><input type="number" name="Monitors-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Monitors-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 5: Printer -->
+    <tr>
+        <td>Printer</td>
+        <td><input type="number" name="Printer-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Printer-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 6: Computer Mouse And Trackballs -->
+    <tr>
+        <td>Computer Mouse And Trackballs</td>
+        <td><input type="number" name="Computer-Mouse-And-Trackballs-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Computer-Mouse-And-Trackballs-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 7: Printer Accessory -->
+    <tr>
+        <td>Printer Accessory</td>
+        <td><input type="number" name="Printer-Accessory-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Printer-Accessory-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 8: Master Carton -->
+    <tr>
+        <td>Master Carton</td>
+        <td><input type="number" name="Master-Carton-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Master-Carton-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 9: Insurance -->
+    <tr>
+        <td>Insurance</td>
+        <td><input type="number" name="Insurance-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Insurance-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 10: Inner Cartons -->
+    <tr>
+        <td>Inner Cartons</td>
+        <td><input type="number" name="Inner-Cartons-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Inner-Cartons-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 11: Poly Bags -->
+    <tr>
+        <td>Poly Bags</td>
+        <td><input type="number" name="Poly-Bags-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Poly-Bags-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 12: Packaging Materials And Supplies -->
+    <tr>
+        <td>Packaging Materials And Supplies</td>
+        <td><input type="number" name="Packaging-Materials-And-Supplies-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Packaging-Materials-And-Supplies-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 13: Office And Stationary Supplies -->
+    <tr>
+        <td>Office And Stationary Supplies</td>
+        <td><input type="number" name="Office-And-Stationary-Supplies-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Office-And-Stationary-Supplies-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 14: Marketing and Promotional Material(Stickers /Labeles/posters/Adertisement) -->
+    <tr>
+        <td>Marketing and Promotional Material(Stickers /Labeles/posters/Adertisement)</td>
+        <td><input type="number" name="Marketing-Promotional-Material-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Marketing-Promotional-Material-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 15: Construction Services(CCTV Installation/AC installation maintenets) -->
+    <tr>
+        <td>Construction Services(CCTV Installation/AC installation maintenets)</td>
+        <td><input type="number" name="Construction-Services-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Construction-Services-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 16: Safety Items (Safety gloves/safety shoes/helmets) -->
+    <tr>
+        <td>Safety Items (Safety gloves/safety shoes/helmets)</td>
+        <td><input type="number" name="Safety-Items-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Safety-Items-count" placeholder="Purchase Count"></td>
+    </tr>
+
+    <!-- Product 17: Automobile, Parts, and Spares -->
+    <tr>
+        <td>Automobile, Parts, and Spares</td>
+        <td><input type="number" name="Automobile-Parts-Spares-cost" placeholder="Yearly Cost"></td>
+        <td><input type="number" name="Automobile-Parts-Spares-count" placeholder="Purchase Count"></td>
+    </tr>
+</table>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="Google Sheet.js"></script>
+</body>
+</html>
